@@ -1,0 +1,47 @@
+body{
+
+}
+html, body{
+    height:100%; /* important to vertically align the container */
+    margin:0;
+    padding:0;
+
+
+}
+
+.page.buttons{
+    display: flex;
+}
+
+.vertical-align {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.home {
+    text-align: center;
+}
+
+.hi{
+    color: white;
+}
+
+.page1{
+    height: 100%;
+    background-color: #031621;
+}
+
+.drawer-image {
+    width: inherit ;
+    height: 150px;
+}
+
+#page1{
+    /*background-image: url("bg2.jpg");*/
+    /*background-size: cover;*/
+}
+
+.content{
+    height: 100%;
+    font-family: 'Roboto Mono', monospace;
+}
