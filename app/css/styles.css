@@ -1,11 +1,9 @@
-body{
 
-}
 html, body{
     height:100%; /* important to vertically align the container */
     margin:0;
     padding:0;
-
+    font-family: 'Ubuntu', sans-serif;
 
 }
 
@@ -31,17 +29,30 @@ html, body{
     background-color: #031621;
 }
 
+.page2{
+    height: 100%;
+    background-color: white;
+}
+
+.profile-image{
+    text-align: center;
+    height: 150px;
+    width: 150px;
+}
+
 .drawer-image {
     width: inherit ;
     height: 150px;
 }
 
-#page1{
-    /*background-image: url("bg2.jpg");*/
-    /*background-size: cover;*/
+.circular--square {
+    border-radius: 50%;
 }
 
 .content{
     height: 100%;
-    font-family: 'Roboto Mono', monospace;
+}
+
+.aboutme_text{
+    padding: 10px;
 }
