@@ -1,0 +1,31 @@
+body{
+
+}
+html, body{
+    height:100%; /* important to vertically align the container */
+    margin:0;
+    padding:0;
+}
+
+.vertical-center {
+
+    display: flex;
+    align-items: center;
+}
+
+.home {
+    text-align: center;
+}
+
+.hi{
+    color: white;
+}
+
+.page1{
+    height: 100%;  /* Fallback for browsers do NOT support vh unit */
+}
+
+#page1{
+    background-image: url("bg2.jpg");
+    background-size: cover;
+}
