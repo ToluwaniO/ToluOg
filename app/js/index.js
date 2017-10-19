@@ -19,4 +19,8 @@ $('#androidDev').on("click", function () {
 
 })
 
+$('#projects').on("click", function () {
+    window.open('https://github.com/ToluwaniO')
+})
+
 
