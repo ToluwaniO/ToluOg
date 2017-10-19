@@ -9,41 +9,145 @@
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="css/mdl/material.min.css">
     <script defer src="css/mdl/material.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
 <div id="page1" class="page1">
     <h1 class="hi mdl-typography--text-center vertical-align">Hi, I'm Toluwani</h1>
-    <div class="mdl-grid mdl-grid--no-spacing vertical-align ">
-        <div class="mdl-cell mdl-cell--4-col mdl-typography--text-center">
+    <div class="vertical-align mdl-typography--text-center text-center">
             <button id="myresume" class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent">My Resume</button>
-        </div>
-        <div class="mdl-cell mdl-cell--4-col mdl-typography--text-center">
             <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent">About Me</button>
-        </div>
-        <div class="mdl-cell mdl-cell--4-col mdl-typography--text-center">
             <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent">Projects</button>
+    </div>
+</div>
+
+<div id="page2" class="page2 ">
+    <h1 class="mdl-typography--text-center">About Me</h1>
+
+    <div class="cards-wrapper text-center aboutme-cards mdl-typography--text-center">
+        <div class="citem text-center">
+            <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+                <div class="mdl-card__title tech-card">
+                    <h2 class="mdl-card__title-text">Technical Skills</h2>
+                </div>
+                <div class="mdl-card__supporting-text">
+                    <span class="mdl-chip" id="androidDev">
+                        <span class="mdl-chip__text">Android Development</span>
+                    </span>
+                    <span class="mdl-chip">
+                        <span class="mdl-chip__text">Java</span>
+                    </span>
+                    <span class="mdl-chip">
+                        <span class="mdl-chip__text">Kotlin</span>
+                    </span>
+                    <span class="mdl-chip">
+                        <span class="mdl-chip__text">C++</span>
+                    </span>
+                    <span class="mdl-chip">
+                        <span class="mdl-chip__text">Python</span>
+                    </span>
+                    <span class="mdl-chip">
+                        <span class="mdl-chip__text">C</span>
+                    </span>
+                    <span class="mdl-chip">
+                        <span class="mdl-chip__text">HTML & CSS</span>
+                    </span>
+                    <span class="mdl-chip">
+                        <span class="mdl-chip__text">Javascript</span>
+                    </span>
+                    <span class="mdl-chip">
+                        <span class="mdl-chip__text">jQuery</span>
+                    </span>
+                    <span class="mdl-chip">
+                        <span class="mdl-chip__text">Git</span>
+                    </span>
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                    <a id="moreinfo-tech" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                        More info
+                    </a>
+                </div>
+                <div class="mdl-card__menu">
+                    <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                        <i class="material-icons">share</i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="citem text-center">
+            <div class=""><img src="img/me.jpg" class="img-rounded text-center profile-image"></div>
+        </div>
+        <div class="citem text-center">
+            <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+                <div class="mdl-card__title interest-card">
+                    <h2 class="mdl-card__title-text">Interests</h2>
+                </div>
+                <div class="mdl-card__supporting-text">
+                    <span class="mdl-chip" id="">
+                        <span class="mdl-chip__text">Soccer</span>
+                    </span>
+                    <span class="mdl-chip">
+                        <span class="mdl-chip__text">Manchester United</span>
+                    </span>
+                    <span class="mdl-chip">
+                        <span class="mdl-chip__text">Artificial Intelligence</span>
+                    </span>
+                    <span class="mdl-chip">
+                        <span class="mdl-chip__text">Mobile Development</span>
+                    </span>
+                    <span class="mdl-chip">
+                        <span class="mdl-chip__text">Athletics</span>
+                    </span>
+
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                        More info
+                    </a>
+                </div>
+                <div class="mdl-card__menu">
+                    <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                        <i class="material-icons">share</i>
+                    </button>
+                </div>
+            </div>
         </div>
     </div>
+
+
+
 </div>
 
-<div id="page2" class="page2 mdl-layout">
-    <h1 class="mdl-typography--text-center">About Me</h1>
-    <div class="text-center"><img src="img/me.jpg" class="img-circle text-center profile-image"></div>
-    <div class="aboutme_text">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed metus elit, laoreet et pretium at, pharetra et nisi. Vivamus feugiat porta auctor. Phasellus lacus odio, interdum ac orci nec, commodo blandit eros. Pellentesque a mattis eros. Quisque facilisis lobortis massa, eget auctor mi imperdiet sed. Etiam leo orci, interdum vitae gravida et, pellentesque sit amet tortor. Nulla laoreet sed augue nec suscipit. Aliquam vel lorem ipsum. Phasellus euismod nunc libero, quis auctor magna varius ac. Ut at lacus ut felis lacinia tempus. Donec iaculis vehicula orci, in pharetra risus maximus ac. Duis fermentum eget dui in scelerisque. Maecenas egestas nulla ipsum. Suspendisse potenti. Vestibulum vehicula, erat sit amet lobortis scelerisque, neque metus luctus sapien, vitae tempor lacus quam quis quam. Aenean pulvinar lacinia tellus sed cursus.
-
-            Morbi iaculis molestie consequat. Ut tempus lorem sed tellus mollis, eu pharetra lectus lacinia. In hac habitasse platea dictumst. Nunc pellentesque in eros nec dictum. Phasellus non elementum lectus, in interdum justo. Nunc et magna eleifend, commodo orci ut, fermentum augue. Praesent tortor urna, facilisis quis accumsan non, tristique et ex. In aliquam mi enim, sit amet pharetra elit porttitor a. Integer nec magna turpis. Phasellus in magna risus. Nullam libero felis, vulputate nec leo vel, varius ultricies sem.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed metus elit, laoreet et pretium at, pharetra et nisi. Vivamus feugiat porta auctor. Phasellus lacus odio, interdum ac orci nec, commodo blandit eros. Pellentesque a mattis eros. Quisque facilisis lobortis massa, eget auctor mi imperdiet sed. Etiam leo orci, interdum vitae gravida et, pellentesque sit amet tortor. Nulla laoreet sed augue nec suscipit. Aliquam vel lorem ipsum. Phasellus euismod nunc libero, quis auctor magna varius ac. Ut at lacus ut felis lacinia tempus. Donec iaculis vehicula orci, in pharetra risus maximus ac. Duis fermentum eget dui in scelerisque. Maecenas egestas nulla ipsum. Suspendisse potenti. Vestibulum vehicula, erat sit amet lobortis scelerisque, neque metus luctus sapien, vitae tempor lacus quam quis quam. Aenean pulvinar lacinia tellus sed cursus.
-
-            Morbi iaculis molestie consequat. Ut tempus lorem sed tellus mollis, eu pharetra lectus lacinia. In hac habitasse platea dictumst. Nunc pellentesque in eros nec dictum. Phasellus non elementum lectus, in interdum justo. Nunc et magna eleifend, commodo orci ut, fermentum augue. Praesent tortor urna, facilisis quis accumsan non, tristique et ex. In aliquam mi enim, sit amet pharetra elit porttitor a. Integer nec magna turpis. Phasellus in magna risus. Nullam libero felis, vulputate nec leo vel, varius ultricies sem.</p>
+<dialog class="mdl-dialog">
+    <h4 class="mdl-dialog__title">MORE INFO</h4>
+    <div class="mdl-dialog__content">
+        <p>
+            Android Development: I have experience with <b>Android Studio</b>, <b>Espresso</b>, <b>Gradle</b> and lots of Google APIs.
+        </p>
     </div>
+    <div class="mdl-dialog__actions">
+        <button type="button" class="mdl-button close">CLOSE</button>
+    </div>
+</dialog>
 
+<script>
 
-</div>
+</script>
+
 
 
 </body>
 <script src="js/jquery.js"></script>
+
 <script src="js/index.js"></script>
 </html>
+
+<!--<div class="aboutme_text">-->
+<!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed metus elit, laoreet et pretium at, pharetra et nisi. Vivamus feugiat porta auctor. Phasellus lacus odio, interdum ac orci nec, commodo blandit eros. Pellentesque a mattis eros. Quisque facilisis lobortis massa, eget auctor mi imperdiet sed. Etiam leo orci, interdum vitae gravida et, pellentesque sit amet tortor. Nulla laoreet sed augue nec suscipit. Aliquam vel lorem ipsum. Phasellus euismod nunc libero, quis auctor magna varius ac. Ut at lacus ut felis lacinia tempus. Donec iaculis vehicula orci, in pharetra risus maximus ac. Duis fermentum eget dui in scelerisque. Maecenas egestas nulla ipsum. Suspendisse potenti. Vestibulum vehicula, erat sit amet lobortis scelerisque, neque metus luctus sapien, vitae tempor lacus quam quis quam. Aenean pulvinar lacinia tellus sed cursus.-->
+
+<!--Morbi iaculis molestie consequat. Ut tempus lorem sed tellus mollis, eu pharetra lectus lacinia. In hac habitasse platea dictumst. Nunc pellentesque in eros nec dictum. Phasellus non elementum lectus, in interdum justo. Nunc et magna eleifend, commodo orci ut, fermentum augue. Praesent tortor urna, facilisis quis accumsan non, tristique et ex. In aliquam mi enim, sit amet pharetra elit porttitor a. Integer nec magna turpis. Phasellus in magna risus. Nullam libero felis, vulputate nec leo vel, varius ultricies sem.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed metus elit, laoreet et pretium at, pharetra et nisi. Vivamus feugiat porta auctor. Phasellus lacus odio, interdum ac orci nec, commodo blandit eros. Pellentesque a mattis eros. Quisque facilisis lobortis massa, eget auctor mi imperdiet sed. Etiam leo orci, interdum vitae gravida et, pellentesque sit amet tortor. Nulla laoreet sed augue nec suscipit. Aliquam vel lorem ipsum. Phasellus euismod nunc libero, quis auctor magna varius ac. Ut at lacus ut felis lacinia tempus. Donec iaculis vehicula orci, in pharetra risus maximus ac. Duis fermentum eget dui in scelerisque. Maecenas egestas nulla ipsum. Suspendisse potenti. Vestibulum vehicula, erat sit amet lobortis scelerisque, neque metus luctus sapien, vitae tempor lacus quam quis quam. Aenean pulvinar lacinia tellus sed cursus.-->
+
+<!--Morbi iaculis molestie consequat. Ut tempus lorem sed tellus mollis, eu pharetra lectus lacinia. In hac habitasse platea dictumst. Nunc pellentesque in eros nec dictum. Phasellus non elementum lectus, in interdum justo. Nunc et magna eleifend, commodo orci ut, fermentum augue. Praesent tortor urna, facilisis quis accumsan non, tristique et ex. In aliquam mi enim, sit amet pharetra elit porttitor a. Integer nec magna turpis. Phasellus in magna risus. Nullam libero felis, vulputate nec leo vel, varius ultricies sem.</p>-->
+<!--</div>-->

@@ -1,4 +1,3 @@
-
 html, body{
     height:100%; /* important to vertically align the container */
     margin:0;
@@ -31,13 +30,16 @@ html, body{
 
 .page2{
     height: 100%;
+    width: 100%;
     background-color: white;
+    text-align: center;
+    position: relative;
 }
 
 .profile-image{
     text-align: center;
-    height: 150px;
-    width: 150px;
+    height: 350px;
+    width: inherit;
 }
 
 .drawer-image {
@@ -53,6 +55,38 @@ html, body{
     height: 100%;
 }
 
+.aboutme-cards{
+    display: flex;
+}
+.cards-wrapper{
+    margin: 0 auto;
+}
+
+.citem{
+    float: left;
+}
+
 .aboutme_text{
     padding: 10px;
+}
+.demo-card-wide.mdl-card {
+    /*width: inherit;*/
+    height: 350px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.demo-card-wide > .mdl-card__title {
+    color: #fff;
+    height: 176px;
+
+}
+.demo-card-wide > .mdl-card__menu {
+    color: #fff;
+}
+.demo-card-wide > .tech-card{
+    background: url('../img/code.jpg') center / cover;
+}
+
+.demo-card-wide > .interest-card{
+    background: url('../img/united.jpg') center / cover;
 }
