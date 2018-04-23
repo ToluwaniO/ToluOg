@@ -7,7 +7,7 @@ dialog.querySelector('.close').addEventListener('click', function() {
     dialog.close();
 });
 $('#myresume').on("click", function () {
-    window.open('https://drive.google.com/open?id=1quYUjmxzfASGhzUvpeywiEjejzS_9hDn')
+    window.open('https://drive.google.com/open?id=1WrGoM1GZ41NGxh0Mo26GTUunBdkHiyOA')
 })
 
 $('#moreinfo-tech').on("click", function () {
