@@ -11,6 +11,23 @@
     <script src="js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <script>
+        window['_fs_debug'] = false;
+        window['_fs_host'] = 'fullstory.com';
+        window['_fs_org'] = 'EW5DB';
+        window['_fs_namespace'] = 'FS';
+        (function(m,n,e,t,l,o,g,y){
+            if (e in m) {if(m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');} return;}
+            g=m[e]=function(a,b){g.q?g.q.push([a,b]):g._api(a,b);};g.q=[];
+            o=n.createElement(t);o.async=1;o.src='https://'+_fs_host+'/s/fs.js';
+            y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
+            g.identify=function(i,v){g(l,{uid:i});if(v)g(l,v)};g.setUserVars=function(v){g(l,v)};g.event=function(i,v){g('event',{n:i,p:v})};
+            g.shutdown=function(){g("rec",!1)};g.restart=function(){g("rec",!0)};
+            g.consent=function(a){g("consent",!arguments.length||a)};
+            g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
+            g.clearUserCookie=function(){};
+        })(window,document,window['_fs_namespace'],'script','user');
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
@@ -19,13 +36,14 @@
     <div class="hi mdl-typography--text-center vertical-align">
         <h1>Hi, I'm Toluwani</h1>
         <h6 class="hi mdl-typography--text-center vertical-align">I am a Software Engineering student at the University
-            of Ottawa with experince in programming and Mobile Development</h6>
+            of Ottawa and I love software development. Click on any button below to learn more about me.</h6>
     </div>
 
     <div class="vertical-align mdl-typography--text-center text-center">
             <button id="myresume" class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent">My Resume</button>
             <a href="#page2"><button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent">About Me</button></a>
             <button id="projects" class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent">Projects</button>
+            <button id="articles" class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent">Articles</button>
     </div>
 
 </div>
@@ -43,28 +61,31 @@
                         <span class="mdl-chip__text">Android Development</span>
                     </span>
                     <span class="mdl-chip">
+                        <span class="mdl-chip__text">Flutter</span>
+                    </span>
+                    <span class="mdl-chip">
                         <span class="mdl-chip__text">Java</span>
                     </span>
                     <span class="mdl-chip">
                         <span class="mdl-chip__text">Kotlin</span>
                     </span>
                     <span class="mdl-chip">
-                        <span class="mdl-chip__text">C++</span>
+                        <span class="mdl-chip__text">C & C++</span>
                     </span>
                     <span class="mdl-chip">
                         <span class="mdl-chip__text">Python</span>
                     </span>
                     <span class="mdl-chip">
-                        <span class="mdl-chip__text">C</span>
+                        <span class="mdl-chip__text">PHP</span>
                     </span>
                     <span class="mdl-chip">
                         <span class="mdl-chip__text">HTML & CSS</span>
                     </span>
                     <span class="mdl-chip">
-                        <span class="mdl-chip__text">Javascript</span>
+                        <span class="mdl-chip__text">Javascript & Typescript</span>
                     </span>
                     <span class="mdl-chip">
-                        <span class="mdl-chip__text">jQuery</span>
+                        <span class="mdl-chip__text">Angular</span>
                     </span>
                     <span class="mdl-chip">
                         <span class="mdl-chip__text">Git</span>
@@ -126,8 +147,7 @@
     </div>
 
     <div class="col-md-6 social">
-        <a href="https://www.linkedin.com/in/toluwaniogunsanya
-" class="fa fa-linkedin text-center" target="_blank"></a>
+        <a href="https://www.linkedin.com/in/toluwaniogunsanya" class="fa fa-linkedin text-center" target="_blank"></a>
         <a href="https://twitter.com/ogunsanyatoluwa" class="fa fa-twitter" target="_blank"></a>
     </div>
 </div>
@@ -142,7 +162,7 @@
     <h4 class="mdl-dialog__title">MORE INFO</h4>
     <div class="mdl-dialog__content">
         <p>
-            Android Development: I have experience with <b>Android Studio</b>, <b>Espresso</b>, <b>Gradle</b> and lots of Google APIs.
+            Android Development: I have experience with <b>Kotlin</b>, <b>Espresso</b>, <b>Gradle</b> and lots of Google APIs.
         </p>
     </div>
     <div class="mdl-dialog__actions">
